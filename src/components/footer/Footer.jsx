@@ -1,4 +1,5 @@
-import { Film, Github, Twitter, Instagram } from 'lucide-react';
+import { Film } from 'lucide-react';
+import { FaGithub, FaTwitter, FaInstagram } from 'react-icons/fa';
 
 export default function Footer() {
   return (
@@ -15,15 +16,15 @@ export default function Footer() {
           <div className="flex space-x-4">
             <a href="#" className="text-slate-400 hover:text-brand transition-colors">
               <span className="sr-only">GitHub</span>
-              <Github className="h-5 w-5" />
+              <FaGithub className="h-5 w-5" />
             </a>
             <a href="#" className="text-slate-400 hover:text-brand transition-colors">
               <span className="sr-only">Twitter</span>
-              <Twitter className="h-5 w-5" />
+              <FaTwitter className="h-5 w-5" />
             </a>
             <a href="#" className="text-slate-400 hover:text-brand transition-colors">
               <span className="sr-only">Instagram</span>
-              <Instagram className="h-5 w-5" />
+              <FaInstagram className="h-5 w-5" />
             </a>
           </div>
         </div>
